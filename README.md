@@ -80,33 +80,31 @@ pip install -r requirements.txt
 Create a .env file with your API keys:
 
 ```
-
----
-
-
-
 OPENAI_API_KEY=your_openai_key
 PINECONE_API_KEY=your_pinecone_key
 
 ```
 
+---
 
-## 📥 How to Use
-1. 📄 Process Medical PDFs
-Uncomment and set the path to your PDFs in main.py:
 
-python
-Copy
-Edit
-uploaded_files = ["uploads/doc1.pdf", "uploads/doc2.pdf"]
-pmids = ["PMID-123456", "PMID-789101"]
-receive_pdfs_and_pmids(uploaded_files, pmids)
-This will:
+## 🧹 Caching Strategy
+OCR results stored in cache/ocr/
 
-Extract PDF text and OCR
+Embeddings stored in cache/embeddings/
 
-Split into chunks
+Old cache files (older than 30 days) are auto-deleted on next run
 
-Generate embeddings
 
-Store in Pinecone
+
+---
+
+## 👨‍💻 Author
+Ashraful Hossain
+AI Developer | ML Engineer
+
+---
+
+
+
+
