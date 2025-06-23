@@ -54,3 +54,22 @@ Ideal for:
 ├── .gitignore # Ignore secrets & venv
 
 ```
+
+
+## 🧩 Dependencies
+
+| Library               | Purpose                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| `openai`              | GPT-4 API for recommendation generation                                 |
+| `dotenv`              | Loads `.env` file containing API keys                                   |
+| `pdfplumber`          | Extracts text from PDFs                                                  |
+| `pdf2image`           | Converts PDF pages to images (for OCR)                                  |
+| `easyocr`             | Performs OCR on scanned PDF pages                                       |
+| `pinecone-client`     | Interfaces with Pinecone vector DB                                      |
+| `langchain`           | Splits long documents into chunks for embedding                         |
+| `uuid`, `pickle`, `os`, `json`, `glob`, `shutil`, `time` | File caching, metadata, and utilities |
+
+Install all dependencies:
+
+```bash
+pip install -r requirements.txt
