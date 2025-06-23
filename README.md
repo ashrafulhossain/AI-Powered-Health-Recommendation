@@ -73,3 +73,14 @@ Install all dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+🔐 Environment Setup
+Create a .env file with your API keys:
+
+```
+OPENAI_API_KEY=your_openai_key
+PINECONE_API_KEY=your_pinecone_key
+
+```
