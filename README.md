@@ -105,6 +105,7 @@ AI Developer | ML Engineer
 
 ---
 
-
+## 📄 License
+MIT License — free for personal and commercial use
 
 
